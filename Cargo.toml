@@ -37,3 +37,4 @@ sqlx = {version = "0.8.6", features = [
   "time",
 ], optional = true}
 serde = {version = "1.0.207", optional = true}
+time = "0.3.47"
