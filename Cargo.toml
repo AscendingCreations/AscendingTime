@@ -23,7 +23,7 @@ enable_mmap_bytey = ["mmap_bytey"]
 enable_bytey = ["bytey"]
 
 [dependencies]
-chrono = {version = "0.4.42", features = [
+chrono = {version = "0.4.44", features = [
   "clock",
   "serde",
   "std",
