@@ -1,6 +1,6 @@
 [package]
 name = "ascending_time"
-version = "0.2.2"
+version = "0.2.3"
 edition = "2024"
 rust-version = "1.94"
 authors = ["S.J.R. van Schaik", "Andrew Wheeler <genusistimelord@gmail.com>"]
@@ -15,6 +15,7 @@ categories = ["game-development"]
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [features]
+default = ["enable_serde", "enable_mmap_bytey", "enable_bytey"]
 enable_sqlx = ["sqlx"]
 sqlx_native_tls = ["sqlx?/tls-native-tls"]
 sqlx_rustls = ["sqlx?/tls-rustls"]
