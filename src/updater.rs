@@ -28,7 +28,7 @@ impl Updater {
             .spawn(move || {
                 while running_pass.load(Ordering::Relaxed) {
                     // we just want to yield it that way we dont eat resource but keep accuracy
-                    thread::sleep(Duration::from_micros(500));
+                    thread::sleep(Duration::from_millis(1));
                     Instant::update();
                 }
             })?;
