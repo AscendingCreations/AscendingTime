@@ -30,8 +30,6 @@ dependencies = [
  "bytey",
  "chrono",
  "mmap_bytey",
- "openssl",
- "rustls-webpki",
  "serde",
  "sqlx",
  "time",
